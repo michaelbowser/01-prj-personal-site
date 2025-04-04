@@ -35,3 +35,39 @@ p {
   margin: 20px auto; /* Center the card on the page */
   text-align: center; /* Center the text inside the card */
 }
+
+/* Style the globe with meridian */
+.card p:first-of-type {
+  color: #1e90ff; /* Slightly darker blue for the globe */
+  font-size: 1.5em; /* Increase the size of the globe */
+  display: flex; /* Use flexbox for vertical alignment */
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  height: 50px; /* Set a fixed height to create vertical space */
+  margin: 10px 0; /* Add spacing above and below the globe */
+}
+
+/* Style the unordered list inside the card */
+.card ul {
+  list-style-type: circle; /* Use circle bullets */
+  padding-left: 20px; /* Add padding to align the list */
+  text-align: left; /* Align the list items to the left */
+  margin: 10px 0; /* Add spacing above and below the list */
+  font-family: 'Lato', sans-serif; /* Set the font to Lato */
+}
+
+/* Style the list items */
+.card ul li {
+  margin: 5px 0; /* Add spacing between list items */
+}
+
+/* Style for links in the bullet list */
+ul li a {
+  text-decoration: none; /* Remove underline */
+  color: #5a8fd6; /* Slightly lighter blue */
+}
+
+/* Optional: Add hover effect for better user experience */
+ul li a:hover {
+  text-decoration: underline; /* Underline on hover */
+}
