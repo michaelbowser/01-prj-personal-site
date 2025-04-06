@@ -49,9 +49,9 @@ p {
 
 /* Style the unordered list inside the card */
 .card ul {
-  list-style-type: circle; /* Use circle bullets */
-  padding-left: 20px; /* Add padding to align the list */
-  text-align: left; /* Align the list items to the left */
+  list-style-type: none; /* Remove bullet points */
+  padding-left: 0; /* Remove left padding */
+  text-align: center; /* Center-align the list items */
   margin: 10px 0; /* Add spacing above and below the list */
   font-family: 'Lato', sans-serif; /* Set the font to Lato */
 }
